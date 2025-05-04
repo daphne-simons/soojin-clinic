@@ -1,5 +1,5 @@
 # Soojin Clinic
-## Acupuncture Practice Management Software
+## Acupuncture Practice Management Software 
 
 A private, secure acupuncture practice management system. 
 
