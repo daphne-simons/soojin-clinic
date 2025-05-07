@@ -34,10 +34,6 @@ Authentication:
   - Local PostgreSQL instance
   - Regular automated backups
 
-- Server-based in NZ:
-  - NZ-based hosting (e.g., Web Drive, Umbrellar, or Amazon AWS Sydney region)
-  - VPN access for enhanced security
-
 ## Security Considerations
 
 - Data Encryption:
