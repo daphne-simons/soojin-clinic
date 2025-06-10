@@ -54,7 +54,7 @@ app.put("/users/:id", async (req: Request, res: Response, next: NextFunction) =>
 
 app.delete("/users/:id", async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const results = await myDataSource.getRepository(User).delete(req.params.id)
+    const results = await myDataSource.getRepository(User).delete(Number(req.params.id))
     res.send(results)
   } catch (error) {
     next(error)
